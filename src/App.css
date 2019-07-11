@@ -26,3 +26,8 @@ nav {
     align-items: center;
     list-style: none;
 }
+
+.source-title {
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 300;
+}

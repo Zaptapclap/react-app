@@ -18,6 +18,9 @@ const TopBar = () => {
                     <Link to="/" style={navStyle}>
                         <li>Home</li>
                     </Link>
+                    <Link to="/source" style={navStyle}>
+                        <li>Source</li>
+                    </Link>
                 </ul>
             </nav>
     );
