@@ -12,17 +12,17 @@ const TopBar = () => {
     };
 
     return (
-            <nav>
-                <h3 className="ubuntu-font" style={titleStyle}>Navigation</h3>
-                <ul className="nav-links">
-                    <Link to="/" style={navStyle}>
-                        <li>Home</li>
-                    </Link>
-                    <Link to="/source" style={navStyle}>
-                        <li>Source</li>
-                    </Link>
-                </ul>
-            </nav>
+        <nav>
+            <h3 className="ubuntu-font" style={titleStyle}>Navigation</h3>
+            <ul className="nav-links">
+                <Link to="/" style={navStyle}>
+                    <li>Home</li>
+                </Link>
+                <Link to="/source" style={navStyle}>
+                    <li>Source</li>
+                </Link>
+            </ul>
+        </nav>
     );
 };
 
